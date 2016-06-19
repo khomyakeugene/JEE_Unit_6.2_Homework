@@ -11,7 +11,6 @@
 
     <properties>
         <main.class>com.company.Bootstrap</main.class>
-        <restaurant.controller>Restaurant.Controller.Jdbc</restaurant.controller>
     </properties>
 
     <build>
@@ -126,10 +125,25 @@
         </dependency>
 
         <dependency>
-            <groupId>com.company</groupId>
-            <artifactId>${restaurant.controller}</artifactId>
-            <version>1.0</version>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <version>4.2.6.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-tx</artifactId>
+            <version>4.2.6.RELEASE</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.company</groupId>
+            <artifactId>Restaurant.Model.Dao.Jdbc</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.company</groupId>
+            <artifactId>Restaurant.Controller.Implementation</artifactId>
+            <version>1.0</version>
+        </dependency>
     </dependencies>
 </project>
