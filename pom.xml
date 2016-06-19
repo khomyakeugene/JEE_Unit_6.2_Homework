@@ -140,10 +140,5 @@
             <artifactId>Restaurant.Model.Dao.Jdbc</artifactId>
             <version>1.0</version>
         </dependency>
-        <dependency>
-            <groupId>com.company</groupId>
-            <artifactId>Restaurant.Controller.Implementation</artifactId>
-            <version>1.0</version>
-        </dependency>
     </dependencies>
 </project>
