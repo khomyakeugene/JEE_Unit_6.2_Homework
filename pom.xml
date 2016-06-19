@@ -136,8 +136,19 @@
         </dependency>
 
         <dependency>
+            <groupId>postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>9.1-901-1.jdbc4</version>
+        </dependency>
+        <dependency>
+            <groupId>com.mchange</groupId>
+            <artifactId>c3p0</artifactId>
+            <version>0.9.5.2</version>
+        </dependency>
+
+        <dependency>
             <groupId>com.company</groupId>
-            <artifactId>Restaurant.Model.Dao.Jdbc</artifactId>
+            <artifactId>Restaurant.Model.Dao</artifactId>
             <version>1.0</version>
         </dependency>
     </dependencies>
