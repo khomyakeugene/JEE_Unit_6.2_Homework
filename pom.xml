@@ -146,10 +146,5 @@
             <version>0.9.5.2</version>
         </dependency>
 
-        <dependency>
-            <groupId>com.company</groupId>
-            <artifactId>Restaurant.Model.Dao</artifactId>
-            <version>1.0</version>
-        </dependency>
     </dependencies>
 </project>

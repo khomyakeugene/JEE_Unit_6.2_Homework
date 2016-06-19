@@ -1,4 +1,4 @@
-package com.company.restaurant.controllers;
+package com.company.restaurant;
 
 import java.util.Random;
 

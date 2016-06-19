@@ -1,4 +1,4 @@
-package com.company.restaurant.controllers;
+package com.company.restaurant;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
